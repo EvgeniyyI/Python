@@ -10,7 +10,7 @@ print("\nСодержимое файла:\n", " ".join(subjects))
 dictionary = {}
 
 for i in subjects:
-    subject, lessons = i.strip().split(": ")
+    subject, lessons = i.split(": ")
     count_of_lessons = 0
     lecture = practice = lab = 0
 
