@@ -23,10 +23,12 @@ class Student:
 
 
 student1 = Student("1", '1', '1', '1', '1')
-student2 = Student("2", '2', '2', '2', '1')
+student2 = Student("2", '2', '2', '2', '2')
+print("\n")
 student1.print_data()
 student2.print_data()
 student1.change_maxscholarship(2)
 student1.print_data()
 student2.print_data()
+print("\nСтатический метод:")
 Student.info()
