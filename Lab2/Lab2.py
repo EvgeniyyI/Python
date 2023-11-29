@@ -63,6 +63,7 @@ def second_task(value):
 
     elif isinstance(value, str):
         print("Строка:", value)
+        d = {}
         for i in value:
             if i in d:
                 d[i] += 1
